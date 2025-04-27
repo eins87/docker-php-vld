@@ -1,4 +1,4 @@
-FROM php:7.4.0-cli-buster
+FROM php:7.4.30-cli-buster
 
 RUN pecl install -f vld \
     && docker-php-ext-enable vld
